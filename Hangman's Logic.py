@@ -4,7 +4,7 @@ hangman = ["""
  +---+
  O   |
 /|\  |
-/ \  |
+/ \  |if
     === ""","""
  +---+
  O   |
@@ -46,7 +46,7 @@ attempts = 6
 
 while attempts > 0 and "_" in guessed_word:
     print(hangman[attempts])
-    print("Letters guessed: " + guessed_word)
+    print("Letters guessed: " + str(guessed_word))
     print(guessed_letters)
     guess = input("Guess a letter: ")
 
