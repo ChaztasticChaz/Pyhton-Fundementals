@@ -40,7 +40,7 @@ hangman = ["""
 words = ["python", "programming", "coding", "fun"]
 target_word = random.choice(words)
 guessed_word = ["_"] * len(target_word)
-guessed_letters = []
+guessedLetters = []
 
 attempts = 6
 
